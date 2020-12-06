@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .contenerService {
+        article {
+            margin: auto;
+            margin-bottom: 70px;
+        }
+    }
+
+    .services{
+        article:nth-child(1){
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+}

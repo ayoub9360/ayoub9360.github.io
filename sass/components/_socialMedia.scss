@@ -1,0 +1,94 @@
+.getAFreeAudit {
+    
+    section {
+        display: flex;
+        padding-bottom: 100px;
+
+        #socialNetwork {
+            position: absolute;
+
+            top: calc(50% - 112px);
+            left: 100px;
+
+            ul {
+                list-style: none;
+
+                li {
+                    margin: 40px 0;
+                }
+            }
+
+            hr {
+                width: 3px;
+                height: 29px;
+                border: none;
+                background-image: $degrade;
+                margin-top: -20px;
+                margin-left: 3px;
+            }
+
+        }
+
+        article {
+            width: 50%;
+        }
+        article:nth-child(1) {
+            div {
+                width: 100%;
+                margin: auto;
+                margin-top: 150px;
+
+                .button{
+                    display: block;
+                    font-weight: $light;
+                    padding: 15px 10px;
+                    margin-left: 250px;
+                }
+
+                h1 {
+                    margin-left: 250px;
+                    font-family: $poppins;
+                    font-size: 74px;
+                    font-weight: $bold;
+                    line-height: 1.4;
+                    text-align: left;
+                    color: $grey;
+                }
+
+                h1:first-line {
+                    font-size: 50px;
+                    font-weight: 500;
+                }
+
+                p {
+                    margin-top: 20px;
+                    margin-left: 250px;
+                    font-family: $poppins;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 1.56;
+                    color: $lightgrey;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        article:nth-child(2) {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 65%;
+            }
+        }
+    }
+
+    #mousseBox {
+        width: 70px;
+        border-radius: 200px;
+        padding: 20px;
+        box-shadow: $shadow;
+        margin: auto;
+    }
+
+}

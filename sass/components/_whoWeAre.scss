@@ -1,0 +1,61 @@
+.whoWeAre {
+
+    display: flex;
+
+    article {
+
+        width: 50%;
+
+    }
+
+    article:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-top: 100px;
+            display: inline-block;
+        }
+    }
+
+    article:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        position: relative;
+
+        p {
+            margin: 20px 0;
+            font-family: $poppins;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.63;
+            color: $lightgrey;
+            max-width: 600px;
+        }
+
+        #weAreBackground{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #Biography {
+            font-family: $poppins;
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 1.2;
+            color: $purple;
+        }
+
+        h2 {
+            font-family: $poppins;
+            font-size: 50px;
+            font-weight: $bold;
+            line-height: 1.52;
+            color: $grey;
+        }
+    }
+}

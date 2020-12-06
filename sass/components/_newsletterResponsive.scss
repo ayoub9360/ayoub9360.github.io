@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .newsletter{
+        form{
+            display: block;
+            margin: auto;
+            width: 80%;
+            #email{
+                width: 100%;
+            }
+            .button{
+                margin: 20px 0 0;
+                margin-left: 30%;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@media screen and (max-width: 1024px) {
+    .getAFreeAudit {
+
+        section {
+            display: block;
+
+            #socialNetwork{
+                display: none;
+            }
+
+            article{
+                width: 100%;
+                margin-top: 50px;
+            }
+
+            article:nth-child(1){
+                div{
+                    h1{
+                        text-align: center;
+                        margin: auto;
+                        font-size: 60px;
+                    }
+                    h1:first-line{
+                        font-size: 40px;
+                    }
+                    p{
+                        text-align: center;
+                        margin: auto;
+                        margin-bottom: 30px;
+                    }
+                    .button{
+                        margin: auto
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .getAFreeAudit {
+
+        section {
+
+            article:nth-child(2){
+                img{
+                    width: 80%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

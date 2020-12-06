@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intégration Gulp + SASS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Evaluation de El Guendouz Ayoub étudiant a l'imm en SASS ainsi que Gulp">
+</head>
+
+<body>
+    <section class="getAFreeAudit">
+        <header>
+            <article>
+                <img src="./assets/img/logo.png" alt="Logo Marketing">
+                <h2>Marketing</h2>
+            </article>
+            <label for="menu-checkbox" class="burger">&#9776;</label>
+            <input type="checkbox" class="menu-checkbox" id="menu-checkbox">
+            <nav class="menu">
+                <ul>
+                    <a href="#" title="Page Home">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#" title="Page Services">
+                        <li>SERVICES</li>
+                    </a>
+                    <a href="#" title="Page Prices">
+                        <li>PRICES</li>
+                    </a>
+                    <a href="#" title="Page Contact">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <img src="./assets/img/wave.svg" alt="background wave" id="backgroundWave">
+
+        <section>
+            <article>
+                <div>
+                    <h1>
+                        SOCIAL MEDIA <br> FOR BUSINESS!
+                    </h1>
+                    <p>
+                        PERFOMANCE BASED SOCIAL MEDIA AGENCY <br>
+                        WE ARE LOREM MEDIA
+                    </p>
+                    <a href="#" title="Page See more" class="button"> GET A FREE AUDIT </a>
+
+                </div>
+            </article>
+            <article>
+                <img src="./assets/img/phone.png" alt="Phone illustration">
+            </article>
+            <article id="socialNetwork">
+                <ul>
+                    <li><a href="#" title="Facebook"><img src="./assets/picto/facebook.svg" alt="Facebook Logo"></a></li>
+                    <li><a href="#" title="Google"><img src="./assets/picto/google-plus.svg" alt="Google Logo"></a></li>
+                    <li><a href="#" title="Twitter"><img src="./assets/picto/twitter.svg" alt="Twitter Logo"></a></li>
+                    <li><a href="#" title="Instagram"><img src="./assets/picto/instagram.svg" alt="Instagram Logo"></a></li>
+                    <hr>
+                </ul>
+            </article>
+        </section>
+
+        <div id="mousseBox">
+            <img id="mousse" src="./assets/picto/mouse.svg" alt="Mousse Illustration">
+        </div>
+
+    </section>
+
+    <section class="whoWeAre">
+        <article>
+            <img src="./assets/img/we-are.png" alt="Who we are Illustration">
+        </article>
+        <article>
+            <p id="Biography">Biography</p>
+            <h2>Who We Are</h2>
+            <p>Lorem Media is a full-service social media agency. We offer businesses innovative solutions that deliver
+                the right type of audience to you in the most effective strategies possible. We strive to develop a
+                community around your business, polishing your branding, and improving your public relations.
+                Social Media is now one of the most powerful marketing tools with the ability to communicate with a
+                target audience in real time.
+                <br>
+                It's 2019: time to sink or swim.
+                <br> <br>
+                We are your Social Media Marketing Agency.</p>
+            <img id="weAreBackground" src="./assets/img/background-we-are.png" alt="We are background">
+            <a href="#" title="See more" class="button"> SEE MORE </a>
+        </article>
+    </section>
+
+    <section class="services">
+        <article>
+            <span id="nosService">OUR SERVICES</span>
+            <h2>What We Offer</h2>
+        </article>
+
+        <section class="contenerService">
+            <article>
+                <img src="./assets/img/001-process.png" alt="process Illustration">
+                <h3>SOCIAL MEDIA MANAGEMENT</h3>
+                <p>Perfect for growing your brand’s social community and engage with the right
+                    audience. We manage everything from curation of content to management of
+                    comments and everything in between.</p>
+                <a href="#" class="button" title="See more">SEE MORE</a>
+            </article>
+            <article>
+                <img src="./assets/img/002-social-media.png" alt="Social Media Illustration">
+                <h3>SOCIALS GROWTH CAMPAIGN</h3>
+                <p>Our social growth campaign will have your socials come alive.
+                    With constant growth and engagement you will be sure to have the thriving you’ve been looking for.
+                </p>
+                <a href="#" class="button" title="See more">SEE MORE</a>
+            </article>
+            <article>
+                <img src="./assets/img/003-responsive.png" alt="Responsive Illustration">
+                <h3>BRANDING & MEDIA</h3>
+                <p>Done right, branding offers a company an edge over the competition. So what exactly is branding, and
+                    why is it important for companies to integrate a well-rounded branding and media strategy?</p>
+                <a href="#" class="button" title="See more">SEE MORE</a>
+            </article>
+            <article>
+                <img src="./assets/img/007-analysis.png" alt="Analysis Illustration">
+                <h3>INFLUENCER MARKETING</h3>
+                <p>We will pair your business with influencers that speak to your audience. Influencer Marketing is the
+                    most effective way to reach a loyal audience.</p>
+                <a href="#" class="button" title="See more">SEE MORE</a>
+            </article>
+            <article>
+                <img src="./assets/img/004-social-media-1.png" alt="Social Media Illustration">
+                <h3>SOCIAL MEDIA PAID ADVERTISING</h3>
+                <p>Our ad campaigns will bring you the results your looking for. From brand awareness campaigns to lead
+                    funnels, we have got the tools to create the right ads for your business. Our re-targeting campaigns
+                    will be sure to get your visitors coming back to your site.</p>
+                <a href="#" class="button" title="See more">SEE MORE</a>
+            </article>
+            <article>
+                <img src="./assets/img/008-computer.png" alt=" Illustration">
+                <h3>CONTENT MARKETING SERVICES</h3>
+                <p>We can create and provide your company with the best content marketing for your socials to improve
+                    online presence. Creating valuable and quality content helps boost conversions and improve customer
+                    retention.</p>
+                <a href="#" class="button" title="See more">SEE MORE</a>
+            </article>
+            <img id="backgroundService" src="./assets/img/background-service.png" alt="Background our Service">
+        </section>
+    </section>
+
+    <section class="price">
+        <article>
+            <p id="pricing">Pricing</p>
+            <h2>Our Pricing</h2>
+        </article>
+        <section class="priceContener">
+            <article>
+                <h3>Gold Package</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit
+                </p>
+                <h4 class="pricePackage">$140</h4>
+                <a href="#" title="Page See Details" class="button">See Details</a>
+            </article>
+            <article>
+                <h3>Platinum Package</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit
+                </p>
+                <h4 class="pricePackage">$140</h4>
+                <a href="#" title="Page See Details" id="platine" class="button">See Details</a>
+            </article>
+            <article>
+                <h3>Silver Package</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl nibh, sagittis ac faucibus sit
+                </p>
+                <h4 class="pricePackage">$140</h4>
+                <a href="#" title="Page See Details" class="button">See Details</a>
+            </article>
+        </section>
+    </section>
+
+    <footer>
+        <article class="newsletter">
+            <p id="newsletter">Newsletter</p>
+            <h2>Do you want to get</h2>
+            <form action="#" method="post">
+                <label for="email"> email : </label>
+                <input type="email" name="email" id="email" placeholder="Drop Your Email">
+                <input type="button" value="Subscribe" class="button">
+            </form>
+        </article>
+        <nav>
+            <section>
+                <article>
+                    <h2>logo.</h2>
+                    <h3>Stay in touch</h3>
+                    <ul>
+                        <li><img src="./assets/footer/003-facebook.png" alt="Facebook Logo"></li>
+                        <li><img src="./assets/footer/002-google-plus.png" alt="Google Logo"></li>
+                        <li><img src="./assets/footer/001-twitter-logo-silhouette.png" alt="Twitter Logo"></li>
+                        <li><img src="./assets/footer/instagram.png" alt="Instagram Logo"></li>
+                    </ul>
+                </article>
+                <article>
+                    <p>Quick Links</p>
+                    <ul>
+                        <li>About</li>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>Location</li>
+                        <li>Office</li>
+                    </ul>
+                </article>
+                <article>
+                    <p>Hours</p>
+                    <div>
+                        <ul>
+                            <li>Monday:</li>
+                            <li>Tuesday:</li>
+                            <li>Wednesday: </li>
+                            <li>Thursday:</li>
+                            <li>Friday:</li>
+                        </ul>
+                        <ul>
+                            <li>9:00 - 18:00</li>
+                            <li>9:00 - 18:00</li>
+                            <li> 9:00 - 18:00</li>
+                            <li>9:00 - 18:00</li>
+                            <li>9:00 - 18:00</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <p>Contact</p>
+                    <div>
+                        <ul>
+                            <li><img src="./assets/footer/old-handphone.png" alt="Phone logo"> 000 - 000 - 0000</li>
+                            <li><img src="./assets/footer/envelope.png" alt="Email logo"> info@email.com</li>
+                            <li><img src="./assets/footer/maps-and-flags.png" alt="Localisation logo"> New York, US</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

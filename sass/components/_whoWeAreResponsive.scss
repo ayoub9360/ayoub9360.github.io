@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+    .whoWeAre {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        article {
+            margin-top: 60px;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        article:nth-child(1){
+            img{
+                width: 90%;
+            }
+        }
+
+        article:nth-child(2){
+            p{   
+                max-width: 80%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {}

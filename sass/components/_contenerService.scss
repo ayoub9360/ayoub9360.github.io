@@ -1,0 +1,61 @@
+.contenerService {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    #backgroundService{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    article {
+        width: 350px;
+        padding: 40px;
+        border-radius: 36px;
+        background-color: $white;
+        box-shadow: $shadow;
+        margin: 0 40px 130px;
+        min-height: 524px;
+
+        position: relative;
+
+
+        img {
+            margin: 20px auto 40px;
+            display: block;
+        }
+
+        h3 {
+            font-family: $poppins;
+            font-size: 16px;
+            font-weight: $bold;
+            line-height: 1.5;
+            color: $grey;
+            margin: 0 0 40px;
+            text-align: left;
+        }
+
+        p {
+            font-family: $lato;
+            font-size: 15px;
+            line-height: 1.47;
+            color: $grey;
+            margin-bottom: 50px;
+        }
+
+        .button{
+            font-size: 12px;
+            font-weight: normal;
+            padding: 10px 25px;
+            position: absolute;
+            bottom: 30px;
+            right: 60px;
+        }
+    }
+}

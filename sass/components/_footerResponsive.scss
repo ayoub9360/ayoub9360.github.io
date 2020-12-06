@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+
+    footer{
+
+        nav{
+
+            section{
+                display: block;
+
+                article{
+                    width: 100%;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        margin-top: 40px
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+}

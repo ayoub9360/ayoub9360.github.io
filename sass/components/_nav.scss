@@ -1,0 +1,69 @@
+.getAFreeAudit{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+    #backgroundWave{
+        position: absolute;
+        top: -2px;
+        right: -3px;
+        z-index: -1;
+    }
+
+    header{
+        display: flex;
+        padding: 70px 0;
+        article{
+            margin-left: -20px;;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                margin: 35px 25px 0 25px;
+                font-family: $dosis;
+                font-size: 40px;
+                font-weight: $bold;
+                line-height: 0.64;
+                color: $grey;
+            }
+
+            img{
+                margin-left: -150px;
+            }
+        }
+        nav{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            ul{
+                display: flex;
+
+                font-family: $poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.56;
+                color: $white;
+                
+                li{
+                    list-style: none;
+                    margin: 0 20px;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+}
+
+.burger, .menu-checkbox {
+    display: none;
+    cursor: pointer;
+}

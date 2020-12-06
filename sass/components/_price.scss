@@ -1,0 +1,86 @@
+.price {
+    background-color: $Backgroundpurple;
+    padding-bottom: 100px;
+
+    article{
+        text-align: center;
+
+        #pricing{
+            font-family: $poppins;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: normal;
+            color: $purple;
+            padding-top: 100px;
+        }
+
+        h2 {
+            font-family: $poppins;
+            font-size: 50px;
+            font-weight: $bold;
+            line-height: 1.52;
+            color: $grey;
+            margin-bottom: 60px;
+        }
+    }
+
+    .priceContener {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+
+        article {
+            width: 370px;
+            padding: 65px 39.4px 53px 40.1px;
+            border-radius: 26px;
+            background-color: $white;
+            margin-bottom: 10px;
+
+            h3 {
+                padding: 20px 10px;
+                margin-bottom: 20px;
+                font-family: $poppins;
+                font-size: 28px;
+                font-weight: normal;
+                line-height: 1.21;
+                color: $grey;
+            }
+
+            p {
+                font-family: $poppins;
+                font-size: 16px;
+                font-weight: $light;
+                line-height: 1.56;
+                color: $lightgrey;
+            }
+
+            .pricePackage {
+                font-family: Poppins;
+                font-size: 30px;
+                font-weight: $bold;
+                line-height: 1.53;
+                text-align: center;
+                color: $blue;
+                margin-top: 40px;
+                margin-bottom: 60px;
+            }
+
+            .button{
+                background-color: $white;
+                background-image: none;
+                color: $grey;
+                border: 1px solid $blue;
+            }
+
+        }
+    }
+}
+
+#platine{
+    border: 1px solid $white;
+    background-image: $degrade;
+    color: $white;
+}

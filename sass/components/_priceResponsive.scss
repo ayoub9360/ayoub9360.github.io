@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+    .price{
+        .priceContener {
+            display: block;
+            article{
+                margin: 40px auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .price{
+        .priceContener {
+            article{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .price{
+        .priceContener {
+            article{
+                .button{
+                    padding: 10%;
+                }
+            }
+        }
+    }
+}
